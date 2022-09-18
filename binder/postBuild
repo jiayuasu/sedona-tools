@@ -1,5 +1,6 @@
 SEDONA_CURRENT_RC=1.2.1-incubating-rc1
 SEDONA_CURRENT_VERSION=1.2.1-incubating
+RAT_VERSION=0.15
 
 ## Download a Sedona release
 wget -q https://downloads.apache.org/incubator/sedona/KEYS
@@ -11,8 +12,8 @@ wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_
 wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.sha512
 
 ## Download Apache Rat
-wget -q https://dlcdn.apache.org//creadur/apache-rat-0.15/apache-rat-0.15-bin.tar.gz
+wget -q https://dlcdn.apache.org//creadur/apache-rat-$RAT_VERSION/apache-rat-$RAT_VERSION-bin.tar.gz
 
 ## Uncompress the source code folder
 tar -xvf  apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz
-tar -xvf  apache-rat-0.15-bin.tar.gz
+tar -xvf  apache-rat-$RAT_VERSION-bin.tar.gz
