@@ -1,14 +1,19 @@
 SEDONA_CURRENT_RC=1.2.1-incubating-rc1
 SEDONA_CURRENT_VERSION=1.2.1-incubating
+PATH=~/binder/
 
 ## Download a Sedona release
-wget -q https://downloads.apache.org/incubator/sedona/KEYS
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.asc
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.sha512
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.asc
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.sha512
+wget -q https://downloads.apache.org/incubator/sedona/KEYS -P $PATH
+wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz -P $PATH
+wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.asc -P $PATH
+wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.sha512 -P $PATH
+wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz -P $PATH
+wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.asc -P $PATH
+wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.sha512 -P $PATH
+
+## Download Apache Rat
+wget -q https://dlcdn.apache.org//creadur/apache-rat-0.15/apache-rat-0.15-bin.tar.gz  -P $PATH
 
 ## Uncompress the source code folder
-tar -xvf apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz
+tar -xvf  ${PATH}apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz
+tar -xvf  ${PATH}apache-rat-0.15-bin.tar.gz
