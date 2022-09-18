@@ -1,6 +1,6 @@
 SEDONA_CURRENT_RC=1.2.1-incubating-rc1
 SEDONA_CURRENT_VERSION=1.2.1-incubating
-PATH=./binder/
+PATH=./
 
 ## Download a Sedona release
 wget -q https://downloads.apache.org/incubator/sedona/KEYS -P $PATH
