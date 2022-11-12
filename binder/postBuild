@@ -1,5 +1,5 @@
-SEDONA_CURRENT_RC=1.2.1-incubating-rc1
-SEDONA_CURRENT_VERSION=1.2.1-incubating
+SEDONA_CURRENT_RC=1.3.0-incubating-rc1
+SEDONA_CURRENT_VERSION=1.3.0-incubating
 RAT_VERSION=0.15
 
 ## Download a Sedona release
