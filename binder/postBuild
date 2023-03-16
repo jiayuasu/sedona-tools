@@ -3,13 +3,13 @@ SEDONA_CURRENT_VERSION=1.4.0
 RAT_VERSION=0.15
 
 ## Download a Sedona release
-wget -q https://downloads.apache.org/incubator/sedona/KEYS
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.asc
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.sha512
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.asc
-wget -q https://dist.apache.org/repos/dist/dev/incubator/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.sha512
+wget -q https://downloads.apache.org/sedona/KEYS
+wget -q https://dist.apache.org/repos/dist/dev/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz
+wget -q https://dist.apache.org/repos/dist/dev/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.asc
+wget -q https://dist.apache.org/repos/dist/dev/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz.sha512
+wget -q https://dist.apache.org/repos/dist/dev/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz
+wget -q https://dist.apache.org/repos/dist/dev/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.asc
+wget -q https://dist.apache.org/repos/dist/dev/sedona/$SEDONA_CURRENT_RC/apache-sedona-$SEDONA_CURRENT_VERSION-bin.tar.gz.sha512
 
 ## Download Apache Rat
 wget -q https://dlcdn.apache.org//creadur/apache-rat-$RAT_VERSION/apache-rat-$RAT_VERSION-bin.tar.gz
