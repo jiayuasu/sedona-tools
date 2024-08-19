@@ -19,4 +19,9 @@ tar -xvf  apache-sedona-$SEDONA_CURRENT_VERSION-src.tar.gz
 tar -xvf  apache-rat-$RAT_VERSION-bin.tar.gz
 
 ## Compile the source code to pre-cache the Maven dependency
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+export PATH=$PATH:$JAVA_HOME/bin
+
 (cd apache-sedona-$SEDONA_CURRENT_VERSION-src;mvn clean install -DskipTests)
