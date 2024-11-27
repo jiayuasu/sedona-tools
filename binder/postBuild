@@ -1,6 +1,6 @@
 SEDONA_CURRENT_RC=1.7.0-rc1
 SEDONA_CURRENT_VERSION=1.7.0
-RAT_VERSION=0.15
+RAT_VERSION=0.16.1
 
 ## Download a Sedona release
 wget -q https://downloads.apache.org/sedona/KEYS
