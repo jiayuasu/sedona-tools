@@ -1,5 +1,5 @@
-SEDONA_CURRENT_RC=1.7.2-rc1
-SEDONA_CURRENT_VERSION=1.7.2
+SEDONA_CURRENT_RC=1.8.0-rc1
+SEDONA_CURRENT_VERSION=1.8.0
 RAT_VERSION=0.16.1
 
 ## Download a Sedona release
@@ -20,7 +20,7 @@ tar -xvf  apache-rat-$RAT_VERSION-bin.tar.gz
 
 ## Compile the source code to pre-cache the Maven dependency
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 
 export PATH=$PATH:$JAVA_HOME/bin
 
